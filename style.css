@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #C99A94;
+}
+
+header{
+    display:flex;
+    justify-content: space-around;
+}
+
+header img{
+    width:200px;
+}
+
+header h1{
+    font-size:70px;
+    margin: 0;
+}
+ header p{
+    font-size: 20px;
+    margin-top: 0px;
+ }
+ .nav-links{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+ }
+
+ .nav-links a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+ }
+
+.main-content{
+    display:flex;
+}
+#resources{
+    width:80%;
+}
+.welcome{
+    width:20%;
+    font-size: 20px;
+    justify-items: center;
+}
+#resources h1{
+    font-size: 40px;
+}
+.welcome h2{
+     margin-top: 0px;
+}
+
+.courses-container{
+    width:80%;
+    display: flex;
+    gap:50px;
+    margin-left: 50px;
+}
+
+.card img{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    opacity: 80%;
+}
+.card{
+    background-color: #E8CFC8;
+    border-radius: 18px;
+    text-align: center;
+    height: 300px;
+    width:500px;
+}
+#Features h2{
+    font-size: 40px;
+}
